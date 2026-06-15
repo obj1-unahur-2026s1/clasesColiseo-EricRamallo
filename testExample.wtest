@@ -1,9 +1,11 @@
-import example.pepita
-
+import equipamiento.*
+const espada = new Filo(filo=0.9, longitud=4)
+const daga = new Filo(filo=0.5, longitud=1)
+const maza = new Contundentes(peso=5)
 describe "group of tests for pepita" {
 
   test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+    assert.equals(100, espada.valorDeAtaque())
   }
 
 }
