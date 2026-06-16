@@ -5,7 +5,7 @@ object coliseo {
 class Grupo {
     const property nombre
     var property cantDeBatallas
-    const property miembros = []
+    const property miembros=[]
     method cantDeBatallas() = cantDeBatallas
     method agregarAGrupo(unGladiador) {
       miembros.add(unGladiador)
